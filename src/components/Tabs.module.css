@@ -1,0 +1,32 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabs > button{
+    border: 1px solid #ddd;
+    background-color: white;
+    color: black;
+
+    padding: 1em 3em;
+    margin: 8px;
+
+    font-weight: bold;
+}
+.tabs > button:hover {
+    background-color: #222;
+    color: white;
+
+    cursor: pointer;
+}
+
+.tabContent {
+    border: 1px solid #ddd;
+
+    margin: 0 auto;
+    padding: 8px;
+
+    width: 500px;
+    height: 500px;
+
+    text-align: left;
+}
